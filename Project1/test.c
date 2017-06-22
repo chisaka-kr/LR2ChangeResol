@@ -34,9 +34,9 @@ int main(int argc, char* argv[]) {
 	char x_res[2][3];
 	char y_res[2][3];
 
-
 	if (fp == NULL) {
-		printf("LR2body.exe does not found."); getchar();
+		printf("LR2body.exe does not found."); 
+		return 0;
 	}
 	else {
 		printf("Width:");
